@@ -16,6 +16,14 @@ We need quotes so that Git will receive the wildcard before our shell can interf
 Check all the things!
 When using wildcards you want to be extra careful when doing commits. Make sure to check what files and folders are staged by using git status before you do the actual commit. This way you can be sure you're committing only the things you want.
 
+git diff <commit_id1> <commit_id1>
+Gives changes made between the two commits 
+
+git log
+
+git log --stat
+Gives statistics of which files have been changed with each commit
+
 Git log --summary
 Use git log --summary to see more information for each commit. You can see where new files were added for the first time or where files were deleted. It's a good overview of what's going on in the project.
 
