@@ -1,0 +1,8 @@
+Create GitHub pages
+1. Create a new repo
+2. Create a branch name 'gh-pages'
+3. Go to Settings and then Branches and then make gh-pages as default branch
+4. Next go to braches and delete master branch
+5. Go to Settings under GitHub pages and see site published at the URL
+6. index.html is default file which automatically gets opened without appending it after the URL 
+

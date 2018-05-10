@@ -1,0 +1,44 @@
+repo
+commit  --> save changes
+branch  --> master is by default at the beginning of creating a repo
+merge  --> joining different branches
+fork  --> making a copy of another user's repo on GitHub
+pull request  --> forked a repo annd made changes you can now ask the creator to accept your changes by issuing a pull request to that user's repo
+clone  --> clone to local machine
+
+Tip: To go to a particular directory you can simply drag and drop the directory from the file explorer into the command line after typing cd 
+
+
+1. git status  ---> status if any changes made in the local repo
+2. git commit -a -m "My Message"
+
+	-a means all
+	-m means message
+3. git log --> history of git commits
+4. git remote --> gives the name of remote
+   git remote -v 
+	-v means verbose which gives details of the remote
+
+	origin is name of the GitHub 
+5. git clone abc.git --> clone the repository you want to work on. No need to do git init just clone the repo and cd into the repo
+6. git push origin master
+   git push <remote> <branch>
+
+7. git init --> initialize the repo. It can be an already existing directory just cd and then type git init
+
+8. git add <file_name> --> means adding to staging area 
+
+	files which are added to staging area are only committed
+
+9. git add .   --> for adding all changes in the staging area
+
+10. For pushing new repo to GitHub
+	i. Create Empty Repo on GitHub
+	ii. git remote add origin <emptyrepo_name_URL>.git
+	    git remote add <name> <emptyrepo_name_URL>.git
+	iii. git push origin master
+11. For pulling repo from GitHub
+	git pull origin master
+
+
+

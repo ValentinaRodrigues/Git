@@ -1,0 +1,25 @@
+Note: for changing remote name from origin to any other name first remove origin using: 
+i. git remote remove origin
+ii. git remote add <new_remote_name> <github_repo_name_URL>.git
+
+Whether to accept the pull request merge or not first you need to test the code
+Go to the fork of your project (the user who forked your repo and sent you pull request)
+git remote add <name_for_new_remote> <URL_of_the_fork>.git
+
+git remote -v (here you will get list of 2 remotes)
+
+git branch <branch_name>   --> creates new branch
+git checkout <branch_name>  --> switch to that branch
+
+git pull <name_for_new_remote> <branch_name>
+eg. Usually -->  git pull origin master
+
+check code if runs properly then commit using :
+git commit -m "<message>"
+
+git checkout master
+
+git merge graphics
+
+git push <remote_name> master  --> remote name is origin
+
