@@ -19,7 +19,7 @@ git commit -m "<message>"
 
 git checkout master
 
-git merge graphics
+git merge <branch_name>
 
 git push <remote_name> master  --> remote name is origin
 
